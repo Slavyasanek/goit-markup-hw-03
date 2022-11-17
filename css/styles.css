@@ -150,6 +150,11 @@ nav {
   padding-bottom: 200px;
 }
 
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
 /* Стилі */
 
 .hero-title {
