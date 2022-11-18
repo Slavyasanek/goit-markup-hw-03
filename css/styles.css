@@ -20,6 +20,8 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .section {
@@ -32,6 +34,8 @@ body {
 .header {
   background-color: var(--sec-bcg);
   border-bottom: 1px solid #ECECEC;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header-flex {
@@ -44,11 +48,12 @@ body {
 nav {
   display: flex;
   align-items: center;
-  padding: 15px 0;
 }
 
 .nav-list {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 93px;
   padding-left: 0;
 }
@@ -205,6 +210,7 @@ nav {
 
 .feature-list-item {
   margin-right: 30px;
+  width: 270px;
 }
 
 .feature-list-item:first-child {
@@ -218,6 +224,10 @@ nav {
 .feature-list-title {
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+.feature-list-descr {
+  margin: 0 auto;
 }
 
 /* Секція занять */
@@ -239,6 +249,7 @@ nav {
 }
 
 /* Секція команди */
+/* Розташування елементів */
 
 .team-title {
   margin-top: 0;
@@ -253,7 +264,8 @@ nav {
 }
 
 .team-list-text {
-  margin: 30px auto;
+  padding-top:30px;
+  padding-bottom: 30px;
 }
 
 .team-list-title {
@@ -323,12 +335,15 @@ nav {
 /* footer */
 /* Розміщення елементів */
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-flex {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .address-list {
@@ -338,7 +353,7 @@ nav {
 }
 
 .address-list-item {
-  margin-bottom: 12px;
+  margin-bottom: 9px;
 }
 
 .address-list-item:last-child {
